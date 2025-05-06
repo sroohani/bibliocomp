@@ -1,0 +1,22 @@
+{
+  "name": "bibliocomp",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sroohani/bibliocomp.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Shahram Roohani",
+    "url": "https://sroohani.github.io/"
+  },
+  "scripts": {
+    "build": "rm -rf dist/lib && tsc --build tsconfig.es5.json && tsc --build tsconfig.es6.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "lit": "^3.3.0"
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "name": "@sroohani/bibliocomp",
+    "version": "0.0.1",
+    "description": "A collection of web components",
+    "main": "lib/es5/index.js",
+    "module": "lib/es6/index.js",
+    "sideEffects": false,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sroohani/bibliocomp.git"
+    },
+    "files": [
+        "lib",
+        "CHANGELOG.md",
+        "package.json",
+        "README.md"
+    ],
+    "keywords": [
+        "typescript",
+        "javascript",
+        "web components"
+    ],
+    "license": "MIT",
+    "author": {
+        "name": "Shahram Roohani",
+        "url": "https://sroohani.github.io/"
+    },
+    "bugs": {
+        "url": "https://github.com/sroohani/bibliocomp/issues"
+    },
+    "homepage": "https://github.com/sroohani/bibliocomp#readme"
+}
